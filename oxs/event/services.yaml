@@ -1,0 +1,2 @@
+imports:
+    - { resource: Subscriber/services.yaml }

@@ -1,0 +1,9 @@
+services:
+
+  _defaults:
+    public: false
+    autowire: true
+
+  OxidSupport\Event\Subscriber\ModelLoggerEventSubscriber:
+    class: OxidSupport\Event\Subscriber\ModelLoggerEventSubscriber
+    tags: ['kernel.event_subscriber']

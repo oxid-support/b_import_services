@@ -1,0 +1,8 @@
+copy the directory oxs/ right next to the directories source and vendor.
+
+
+composer config repositories.oxid-support/event path oxs/event
+composer require oxid-support/event:dev-master
+
+vendor/bin/oe-console oe:module:install-configuration source/modules/oxs/event
+vendor/bin/oe-console oe:module:activate oxs_event/Users/michaelkeiluweit/Documents/untitled folder/oxs/event/composer.json
